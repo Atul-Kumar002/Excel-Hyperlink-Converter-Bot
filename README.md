@@ -1,2 +1,9 @@
 # Excel-Hyperlink-Converter-Bot
-A Python bot that automatically converts and manages hyperlinks in Excel files. Extracts URLs from cells, converts text to clickable links, or batch processes hyperlinks across multiple spreadsheets. Perfect for data cleaning and Excel automation tasks.
+
+A Python bot that automatically converts and manages hyperlinks in Excel files.
+
+## Features
+- Extract URLs from Excel cells
+- Convert text to clickable hyperlinks  
+- Batch process multiple spreadsheets
+- Clean and manage hyperlinks automatically
