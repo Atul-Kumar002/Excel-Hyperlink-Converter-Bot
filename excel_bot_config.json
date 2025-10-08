@@ -1,20 +1,6 @@
 {
-  "hyperlink_color": "0000FF",
-  "backup_files": true,
-  "auto_detect": true,
-  "max_rows_to_process": 100000,
-  "supported_extensions": [
-    ".xlsx",
-    ".xlsm",
-    ".xltx",
-    ".xltm"
-  ],
-  "social_media_platforms": [
-    "linkedin",
-    "twitter",
-    "facebook",
-    "instagram",
-    "youtube"
-  ],
-  "log_level": "INFO"
+    "backup_folder": "backups",
+    "supported_formats": [".xlsx", ".xls"],
+    "create_backups": true,
+    "log_level": "INFO"
 }
