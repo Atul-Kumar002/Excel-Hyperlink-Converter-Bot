@@ -34,7 +34,7 @@ pip install -r requirements.txt
 5. Choose the further option as per your requirement.
 
 ### Single File Processing
-1. (Assuming we have to apply this to one Excel file) Choose 1.
+1. Choose 1.
    ```bash
    Enter your choice (1-6): 1
    ```
@@ -58,9 +58,10 @@ pip install -r requirements.txt
    📂 Backup: backups\Website_Links.xlsx.backup_20251008_203700
    ```
    That's all, and your Excel sheet with the hyperlink is created in the folder.
-   
+3. Type "6" when you are done using the bot.
+
 ### Batch Processing
-1. (Assuming we have to apply this to one Excel file) Choose 2.
+1. Choose 2.
    ```bash
    Enter your choice (1-6): 2
    ```
@@ -69,7 +70,7 @@ pip install -r requirements.txt
     Enter the folder path: .
     ```
 3. That's all, and all your Excel sheet with the hyperlink is created in the folder.
-4. Type 6 when you are done using the bot.
+4. Type "6" when you are done using the bot.
 
 ## Getting Help
 If you encounter issues:
@@ -81,30 +82,30 @@ Verify your Excel file is not password-protected.
 Ensure you have write permissions in the output directory
 
 ### Before Conversion
-![Excel with text URLs](before.png)
+![Excel with text URLs](Before.png)
 
 ### After Conversion  
-![Excel with clickable hyperlinks](after.png)
+![Excel with clickable hyperlinks](After.png)
 
 ## Technical Details
 ### Architecture
-excel_hyperlink_bot.py
-├── Core Detection Engine
-│   ├── Email validation with regex
-│   ├── URL pattern matching
-│   └── Content type analysis
-├── Processing Pipeline
-│   ├── File loading with OpenPyXL
-│   ├── Batch processing controller
-│   └── Progress tracking with TQDM
-├── Safety Systems
-│   ├── Automatic backup creation
-│   ├── Error handling and logging
-│   └── Configuration management
-└── User Interface
-    ├── Interactive menu system
-    ├── Real-time progress display
-    └── Log viewing interface
+excel_hyperlink_bot.py    
+├── Core Detection Engine 
+│   ├── Email validation with regex 
+│   ├── URL pattern matching 
+│   └── Content type analysis 
+├── Processing Pipeline 
+│   ├── File loading with OpenPyXL 
+│   ├── Batch processing controller 
+│   └── Progress tracking with TQDM 
+├── Safety Systems 
+│   ├── Automatic backup creation 
+│   ├── Error handling and logging 
+│   └── Configuration management 
+└── User Interface 
+    ├── Interactive menu system 
+    ├── Real-time progress display 
+    └── Log viewing interface 
     
 ### Key Algorithms
 Smart Content Detection: Analyzes column data to identify linkable content
